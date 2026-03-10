@@ -20,7 +20,7 @@ permalink: /about-me/
   <!-- RIGHT: video/content area -->
   <div style="flex:1 1 250px; min-width:250px;">
     <!-- Replace this placeholder with a YouTube iframe or a video tag -->
-    <p>[Place your video embed or image here]</p>
+    <p>{% include video id="dQw4w9WgXcQ" provider="youtube" %}</p>
   </div>
 
 </div>

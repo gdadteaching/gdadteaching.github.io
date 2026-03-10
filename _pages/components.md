@@ -108,7 +108,7 @@ Examples of the following below:
 To use a logo in the `masthead` of your site. Ensure you have the images stored in `assets/images` Go to `config.yml` and add the url to your preferred image. 
 
 ## 5. Favicon {#favicon}
-What is a favicon? To use one on your site, go to <a href="https://favicon.io/" target="_blank" rel="noopener noreferrer">Favicon.io</a> and generate a set of favicons. For now you can just upload the 32 x 32 size to `assets/images`. 
+What is a favicon? To use one on your site, go to <a href="https://favicon.io/" target="_blank" rel="noopener noreferrer">Favicon.io</a> and generate a set of favicons. For now you can just upload the 32 x 32 size to `assets/images`. Make sure to delete the old favicon and also ensure that your new favicon is called `favicon`. The favicon is being referenced in _congif.yml (near the bottom of the file).
 
 ## 6. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="This is a caption" %}

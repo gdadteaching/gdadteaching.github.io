@@ -7,7 +7,7 @@ main:
   - title: "Pages"
     url: /pages/
   - title: "About Me"
-    url: /pages/about-me/
+    url: /about-me/
   - title: "Components"
     url: /components/
  

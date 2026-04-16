@@ -51,7 +51,7 @@ author:
 footer: # Site footer
   links: # Footer links
     - label: "Twitter" # Static fallback icon (no animation)
-      url: "https://twitter.com/gdadteaching"
+      url: "https://twitter.com"
       target: "_blank"
       icon: "fab fa-fw fa-twitter-square"
       icon_mode: "fallback"
@@ -61,6 +61,14 @@ footer: # Site footer
       icon: "fab fa-fw fa-github"
       icon_mode: "animated"
       wa_name: "github"
+      wa_family: "brands"
+      wa_animation: "beat"
+     - label: "Facebook" # Animated icon with fallback if WA fails
+      url: "https://github.com/gdadteaching"
+      target: "_blank"
+      icon: "fab fa-fw fa-facebook"
+      icon_mode: "animated"
+      wa_name: "facebook"
       wa_family: "brands"
       wa_animation: "beat"
   since: "2026" # Year shown in the footer

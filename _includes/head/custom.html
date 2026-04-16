@@ -11,6 +11,20 @@
   .social-icons wa-icon:defined + .wa-fallback-icon {
     display: none;
   }
+
+  .wa-fallback-icon--beat {
+    animation: wa-fallback-beat 1s infinite ease-in-out;
+    transform-origin: center;
+  }
+
+  @keyframes wa-fallback-beat {
+    0%, 90%, 100% {
+      transform: scale(1);
+    }
+    45% {
+      transform: scale(1.22);
+    }
+  }
 </style>
 
 <!-- end custom head snippets -->

@@ -50,10 +50,16 @@ author:
 # Site Footer
 footer: # Site footer
   links: # Footer links
-    - label: "GitHub" # GitHub link
+    - label: "Twitter" # Static fallback icon (no animation)
+      url: "https://twitter.com/gdadteaching"
+      target: "_blank"
+      icon: "fab fa-fw fa-twitter-square"
+      icon_mode: "fallback"
+    - label: "GitHub" # Animated icon with fallback if WA fails
       url: "https://github.com/gdadteaching"
       target: "_blank"
       icon: "fab fa-fw fa-github"
+      icon_mode: "animated"
       wa_name: "github"
       wa_family: "brands"
       wa_animation: "beat"

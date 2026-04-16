@@ -1,22 +1,27 @@
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Load Web Awesome so <wa-icon> elements can render. -->
 <script type="module" src="https://cdn.jsdelivr.net/npm/@awesome.me/webawesome@latest/dist/webawesome.loader.js"></script>
 <style>
+  /* Keep icon/text spacing consistent with Minimal Mistakes social links. */
   .social-icons wa-icon {
     margin-right: 0.5em;
     vertical-align: middle;
   }
 
+  /* Hide Font Awesome fallback once the Web Awesome icon is ready. */
   .social-icons wa-icon:defined + .wa-fallback-icon {
     display: none;
   }
 
+  /* Fallback animation used when the WA component doesn't load. */
   .wa-fallback-icon--beat {
     animation: wa-fallback-beat 1s infinite ease-in-out;
     transform-origin: center;
   }
 
+  /* Simple "beat" keyframes to mirror wa-icon animation behavior. */
   @keyframes wa-fallback-beat {
     0%, 90%, 100% {
       transform: scale(1);

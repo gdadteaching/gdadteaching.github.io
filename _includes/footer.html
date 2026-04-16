@@ -3,7 +3,7 @@
   <ul class="social-icons">
     {% for link in site.footer.links %}
       {% if link.label and link.url %}
-        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"{% if link.target %} target="{{ link.target }}"{% endif %}>{% if link.wa_name %}<wa-icon name="{{ link.wa_name }}" family="{{ link.wa_family | default: 'brands' }}"{% if link.wa_animation %} animation="{{ link.wa_animation }}"{% endif %}></wa-icon>{% else %}<i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>{% endif %} {{ link.label | escape_once | strip }}</a></li>
+        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"{% if link.target %} target="{{ link.target }}"{% endif %}>{% if link.wa_name %}<wa-icon name="{{ link.wa_name }}" family="{{ link.wa_family | default: 'brands' }}"{% if link.wa_animation %} animation="{{ link.wa_animation }}"{% endif %} aria-hidden="true"></wa-icon><i class="wa-fallback-icon {{ link.icon | default: 'fab fa-fw fa-github' }}" aria-hidden="true"></i>{% else %}<i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>{% endif %} {{ link.label | escape_once | strip }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>

@@ -53,6 +53,7 @@ footer: # Site footer
     - label: "GitHub" # GitHub link
       url: "https://github.com/gdadteaching"
       target: "_blank"
+      icon: "fab fa-fw fa-github"
       wa_name: "github"
       wa_family: "brands"
       wa_animation: "beat"

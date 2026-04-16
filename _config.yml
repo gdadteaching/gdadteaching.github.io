@@ -63,10 +63,10 @@ footer: # Site footer
       wa_name: "github"
       wa_family: "brands"
       wa_animation: "beat"
-     - label: "Facebook" # Animated icon with fallback if WA fails
-      url: "https://github.com/gdadteaching"
+    - label: "Facebook" # Animated icon with fallback if WA fails
+      url: "https://facebook.com"
       target: "_blank"
-      icon: "fab fa-fw fa-facebook"
+      icon: "fab fa-fw fa-facebook-square"
       icon_mode: "animated"
       wa_name: "facebook"
       wa_family: "brands"
